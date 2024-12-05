@@ -52,8 +52,8 @@
           <li><a href="#hero" class="active">{{ __('tombol.home') }}</a></li>
           <li><a href="#about">{{ __('tombol.about') }}</a></li>
           <li><a href="#services">{{ __('tombol.service') }}</a></li>
-          <li><a href="#portfolio">{{ __('tombol.portofolio') }}</a></li>
-          <li><a href="#team">{{ __('tombol.team') }}</a></li>
+          <!--<li><a href="#portfolio">{{ __('tombol.portofolio') }}</a></li>
+          <li><a href="#team">{{ __('tombol.team') }}</a></li> -->
           <li><a href="#pricing">{{ __('tombol.pricing') }}</a></li>
           
           <li class="dropdown">
@@ -99,7 +99,7 @@
     </section><!-- /Hero Section -->
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section light-background">
+    <!--<section id="clients" class="clients section light-background">
 
       <div class="container" data-aos="zoom-in">
 
@@ -155,7 +155,8 @@
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section> -->
+    <!-- /Clients Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -190,7 +191,7 @@
     </section><!-- /About Section -->
 
     <!-- Why Us Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
+    <!--<section id="why-us" class="section why-us light-background" data-builder="section">
 
       <div class="container-fluid">
 
@@ -214,7 +215,7 @@
                   <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3><span>02</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
@@ -222,7 +223,7 @@
                   <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item">
                 <h3><span>03</span> Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
@@ -230,7 +231,7 @@
                   <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
             </div>
 
@@ -243,10 +244,11 @@
 
       </div>
 
-    </section><!-- /Why Us Section -->
+    </section> -->
+    <!-- /Why Us Section -->
 
     <!-- Skills Section -->
-    <section id="skills" class="skills section">
+    <!--<section id="skills" class="skills section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -270,28 +272,28 @@
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
+              </div>
 
               <div class="progress">
                 <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
+              </div>
 
               <div class="progress">
                 <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
+              </div>
 
               <div class="progress">
                 <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-              </div><!-- End Skills Item -->
+              </div>
 
             </div>
 
@@ -300,7 +302,8 @@
 
       </div>
 
-    </section><!-- /Skills Section -->
+    </section>-->
+    <!-- /Skills Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
@@ -327,7 +330,7 @@
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
               <h4><a href="" class="stretched-link">{{ __('messages.services-opsi-2') }}</a></h4>
-              <p>{{ __('messages.services-entri-data') }}</p>
+              <p>{{ __('messages.services-layout') }}</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -335,7 +338,7 @@
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
               <h4><a href="" class="stretched-link">{{ __('messages.services-opsi-3') }}</a></h4>
-              <p>{{ __('messages.services-layanan-3') }}</p>
+              <p>{{ __('messages.services-karyawan') }}</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -343,7 +346,7 @@
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-broadcast icon"></i></div>
               <h4><a href="" class="stretched-link">{{ __('messages.services-opsi-4') }}</a></h4>
-              <p>{{ __('messages.services-layanan-4') }}</p>
+              <p>{{ __('messages.services-umroh') }}</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -354,7 +357,7 @@
     </section><!-- /Services Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+    <!--<section id="call-to-action" class="call-to-action section dark-background">
 
       <img src="landing/assets/img/cta-bg.jpg" alt="">
 
@@ -372,16 +375,15 @@
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section> -->
+    <!-- /Call To Action Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+    <!-- <section id="portfolio" class="portfolio section">
+    <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div> 
 
       <div class="container">
 
@@ -392,7 +394,7 @@
             <li data-filter=".filter-app">App</li>
             <li data-filter=".filter-product">Card</li>
             <li data-filter=".filter-branding">Web</li>
-          </ul><!-- End Portfolio Filters -->
+          </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -404,7 +406,8 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
@@ -414,7 +417,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
@@ -424,7 +427,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
@@ -434,7 +437,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
@@ -444,7 +447,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
@@ -454,7 +457,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
@@ -464,7 +467,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
@@ -474,7 +477,7 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="landing/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
@@ -484,24 +487,25 @@
                 <a href="landing/assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-          </div><!-- End Portfolio Container -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section>-->
+    <!-- /Portfolio Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
+    <!-- <section id="team" class="team section">
+ 
+     
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -522,7 +526,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex align-items-start">
@@ -539,7 +543,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member d-flex align-items-start">
@@ -556,7 +560,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
@@ -573,21 +577,21 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section> -->
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>{{ __('tombol.pricing') }}</h2>
+        <p>Konten Harga belum bisa dipastikan. Harus melalui eksplorasi terlebih dahulu. Bagian ini diisi lagi nanti. Bisa saja bagian ini ditiadakan</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -596,14 +600,14 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
-              <h3>Free Plan</h3>
+              <h3>Free Plan (ditentukan nanti)</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 1 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 2 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 3 (ditentukan nanti)</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Fitur harga 4 (ditentukan nanti)</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Fitur harga 5 (ditentukan nanti)</span></li>
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
@@ -611,14 +615,14 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="pricing-item featured">
-              <h3>Business Plan</h3>
+              <h3>Business Plan (ditentukan nanti)</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 1 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 2 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 3 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 4 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 5 (ditentukan nanti)</span></li>
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
@@ -626,14 +630,14 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="pricing-item">
-              <h3>Developer Plan</h3>
+              <h3>Developer Plan (ditentukan nanti)</h3>
               <h4><sup>$</sup>49<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 1 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 2 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 3 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 4 (ditentukan nanti)</span></li>
+                <li><i class="bi bi-check"></i> <span>Fitur harga 5 (ditentukan nanti)</span></li>
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
@@ -649,10 +653,10 @@
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <!--<div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -688,7 +692,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -704,7 +708,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -720,7 +724,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -736,7 +740,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -752,7 +756,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
@@ -760,16 +764,17 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section>-->
+    <!-- /Testimonials Section -->
 
     <!-- Faq 2 Section -->
-    <section id="faq-2" class="faq-2 section light-background">
+    <!--<section id="faq-2" class="faq-2 section light-background">
 
-      <!-- Section Title -->
+      
       <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -786,7 +791,7 @@
                   <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
                 <i class="faq-icon bi bi-question-circle"></i>
@@ -795,7 +800,7 @@
                   <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
                 <i class="faq-icon bi bi-question-circle"></i>
@@ -804,7 +809,7 @@
                   <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
                 <i class="faq-icon bi bi-question-circle"></i>
@@ -813,7 +818,7 @@
                   <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
               <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
                 <i class="faq-icon bi bi-question-circle"></i>
@@ -822,7 +827,7 @@
                   <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+              </div>
 
             </div>
 
@@ -832,15 +837,16 @@
 
       </div>
 
-    </section><!-- /Faq 2 Section -->
+    </section> -->
+    <!-- /Faq 2 Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>{{ __('tombol.contact') }}</h2>
+        <p>Hubungi kami kapan saja</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -853,24 +859,24 @@
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h3>{{ __('messages.address') }}</h3>
+                  <p>A108 Adam Street, Dubai, Emirates 535022 (ditentukan nanti)</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <h3>{{ __('messages.callus') }}</h3>
+                  <p>+1 234 567 890 (ditentukan nanti)</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <h3>{{ __('messages.emailus') }}</h3>
+                  <p>cs-biz-it@gmail.com (ditentukan nanti)</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -924,7 +930,7 @@
 
   <footer id="footer" class="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-6">
@@ -939,19 +945,19 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">Arsha</span>
+            <span class="sitename">UAE IT BIZ</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>A108 Adam Street (ditentukan nanti)</p>
+            <p>Dubai, Emirates 535022 (ditentukan nanti)</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 234 567 890 (ditentukan nanti)</span></p>
+            <p><strong>Email:</strong> <span>cs-biz@gmail.com (ditentukan nanti)</span></p>
           </div>
         </div>
 
@@ -959,25 +965,25 @@
           <h4>Useful Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Dubai</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Riyadh</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Jakarta</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Penjadwalan Pesawat (ditentukan nanti)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Rancang tata letak elemen pesawat (ditentukan nanti)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Penjadwalan Karyawan (ditentukan nanti)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Sistem Rekruitmen Karyawan (ditentukan nanti)</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <p>Ikuti media sosial kami ... (ditentukan nanti)</p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -990,13 +996,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">UAE BIZ IT</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">UAE BIZ IT</a>
       </div>
     </div>
 

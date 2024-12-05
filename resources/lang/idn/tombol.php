@@ -12,4 +12,6 @@ return [
     'language' => 'Bahasa',
     'contact' => 'Kontak',
     'readmore' => 'Lebih Lanjut',
+    'pricing' => 'Harga',
+    'contact' => 'Narahubung',
 ];
