@@ -12,4 +12,5 @@ return [
     'language' => 'Language',
     'contact' => 'Contact',
     'readmore' => 'Read More',
+    'login' => 'Login',
 ];

@@ -1,0 +1,20 @@
+<?php
+return [
+    ['id' => 1, 'nama' => 'Stow and latch handset and ....'],
+    ['id' => 2, 'nama' => 'DO NOT SIT'],
+    ['id' => 3, 'nama' => 'SLIDE RAFT'],
+    ['id' => 4, 'nama' => 'RH "ARROW"'],
+    ['id' => 5, 'nama' => 'LH "ARROW"'],
+    ['id' => 6, 'nama' => '787-10 RH "ARROW / RELEASE"'],
+    ['id' => 7, 'nama' => '787-10 LH "ARROW / RELEASE"'],
+    ['id' => 8, 'nama' => 'RH "ARROW"'],
+    ['id' => 9, 'nama' => 'LH "ARROW"'],
+    ['id' => 10, 'nama' => 'ALIGNMENT DECAL'],
+    ['id' => 11, 'nama' => 'DEPLOYMENT PICTO (LH)'],
+    ['id' => 12, 'nama' => 'DEPLOYMENT PICTO (RH)'],
+    ['id' => 13, 'nama' => 'NO SMOKING'],
+    ['id' => 14, 'nama' => 'Emergency Equipment Only'],
+    ['id' => 15, 'nama' => 'Close and latch door'],
+    ['id' => 16, 'nama' => 'VCS-1'],
+    ['id' => 17, 'nama' => 'Load Limit 130 lb, 59 kg'],
+];

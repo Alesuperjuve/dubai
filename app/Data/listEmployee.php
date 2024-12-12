@@ -1,0 +1,23 @@
+<?php
+return [
+    ['id' => 1, 'nama' => 'Hendrawan Pratama', 'negara' => 'Indonesia'],
+    ['id' => 2, 'nama' => 'Ardi Saputra', 'negara' => 'Malaysia'],
+    ['id' => 3, 'nama' => 'Lukman Hakim', 'negara' => 'Brunei'],
+    ['id' => 4, 'nama' => 'James Anderson', 'negara' => 'United States'],
+    ['id' => 5, 'nama' => 'Olivia Williams', 'negara' => 'United Kingdom'],
+    ['id' => 6, 'nama' => 'Pedro Gonzalez', 'negara' => 'Spain'],
+    ['id' => 7, 'nama' => 'Sofia Romano', 'negara' => 'Italy'],
+    ['id' => 8, 'nama' => 'John Smith', 'negara' => 'Canada'],
+    ['id' => 9, 'nama' => 'Isabella Carter', 'negara' => 'Australia'],
+    ['id' => 10, 'nama' => 'Yuki Tanaka', 'negara' => 'Japan'],
+    ['id' => 11, 'nama' => 'Mohammed Al-Farsi', 'negara' => 'Saudi Arabia'],
+    ['id' => 12, 'nama' => 'Amina Yusuf', 'negara' => 'Nigeria'],
+    ['id' => 13, 'nama' => 'Carlos Gamarra', 'negara' => 'Brazil'],
+    ['id' => 14, 'nama' => 'Maria Lopez', 'negara' => 'Mexico'],
+    ['id' => 15, 'nama' => 'Eliot Dubois', 'negara' => 'France'],
+    ['id' => 16, 'nama' => 'Hassan Mustafa', 'negara' => 'Egypt'],
+    ['id' => 17, 'nama' => 'Kim Jiwon', 'negara' => 'South Korea'],
+    ['id' => 18, 'nama' => 'Nadia Ivanova', 'negara' => 'Russia'],
+    ['id' => 19, 'nama' => 'Ahmed Khan', 'negara' => 'Pakistan'],
+    ['id' => 20, 'nama' => 'Fatima Benali', 'negara' => 'Algeria'],
+];

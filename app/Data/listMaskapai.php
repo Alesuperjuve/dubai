@@ -1,0 +1,23 @@
+<?php
+return [
+    ['id' => 1, 'nama' => 'Garuda Indonesia', 'negara' => 'Indonesia'],
+    ['id' => 2, 'nama' => 'Saudia Airlines', 'negara' => 'Saudi Arabia'],
+    ['id' => 3, 'nama' => 'Latam', 'negara' => 'Brasil'],
+    ['id' => 4, 'nama' => 'Singapore Airlines', 'negara' => 'Singapore'],
+    ['id' => 5, 'nama' => 'Emirates', 'negara' => 'UAE'],
+    ['id' => 6, 'nama' => 'Qatar Airways', 'negara' => 'Qatar'],
+    ['id' => 7, 'nama' => 'British Airways', 'negara' => 'United Kingdom'],
+    ['id' => 8, 'nama' => 'American Airlines', 'negara' => 'United States'],
+    ['id' => 9, 'nama' => 'Air France', 'negara' => 'France'],
+    ['id' => 10, 'nama' => 'Lufthansa', 'negara' => 'Germany'],
+    ['id' => 11, 'nama' => 'Japan Airlines', 'negara' => 'Japan'],
+    ['id' => 12, 'nama' => 'Qantas', 'negara' => 'Australia'],
+    ['id' => 13, 'nama' => 'Air Canada', 'negara' => 'Canada'],
+    ['id' => 14, 'nama' => 'KLM', 'negara' => 'Netherlands'],
+    ['id' => 15, 'nama' => 'Cathay Pacific', 'negara' => 'Hong Kong'],
+    ['id' => 16, 'nama' => 'Turkish Airlines', 'negara' => 'Turkey'],
+    ['id' => 17, 'nama' => 'Korean Air', 'negara' => 'South Korea'],
+    ['id' => 18, 'nama' => 'Alitalia', 'negara' => 'Italy'],
+    ['id' => 19, 'nama' => 'Aeroflot', 'negara' => 'Russia'],
+    ['id' => 20, 'nama' => 'China Southern Airlines', 'negara' => 'China'],
+];

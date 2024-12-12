@@ -70,7 +70,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">{{ __('tombol.started') }}</a>
+      <a class="btn-getstarted" href="{{ route('login')}}">{{ __('tombol.login') }}</a>
 
     </div>
   </header>
